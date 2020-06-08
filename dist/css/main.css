@@ -186,10 +186,10 @@ main .icons {
 }
 main .icons a {
   padding: 0.4rem;
+  transition: all 0.5s ease-out;
 }
 main .icons a:hover {
   color: #eece1a;
-  transition: all 0.5s ease-out;
 }
 main#home {
   overflow: hidden;
@@ -281,7 +281,7 @@ main#home h1 {
 .btn-dark:hover,
 .btn-light:hover {
   background: #eece1a;
-  color: #fff;
+  color: #000;
 }
 
 .btn-dark {
